@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffè Serenità</title>
+    <!-- Linking font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='90'>☕</text></svg>">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                
+                <h2 class="logo-text">☕ Caffè Serenità</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Caffè Serenità</h2>
+                    <h3 class="subtitle">Where every moment finds peace in a perfect cup</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup
+                        sparks joy.</p>
+
+                    <div class="buttons">
+                        <a href="#menu" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                        "Welcome to Caffè Serenità — a sanctuary for coffee lovers seeking tranquility in every sip.
+                        Inspired by Italian coffee tradition and crafted with meticulous care, we believe that coffee 
+                        isn't just a beverage; it's a moment of pause in your busy day. Each bean is selected for its 
+                        story, each cup prepared with intention.
+
+Here, you're not just a customer — you're part of our community where quality, serenity, and 
+genuine connection come together."
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/yagnik.patel.397948" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/yagnik.ukani" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/YagnikUkani" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Hot Beverage" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="Cold Beverage" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Fruit and icey refreshing drink to make you refresh</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Special Combos" class="menu-image">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Your favourite eating and drinking combinations.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Desserts" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your palate and take you on a cullinary treat.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="Burger & French fries" class="menu-image">
+                        <h3 class="name">Burger & French fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnsson</h3>
+                                <i class="feedback">"The moment I walked in, I felt the weight lift off my shoulders. 
+                                Truly a sanctuary for peace-seeking coffee lovers."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great espresso blend! Smooth and bold flavour. Fast shipping too.!
+                                    "</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">"Fantastic mocha flavour. Fresh and aromatic. Quick shipping!."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly
+                                    recommend."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"Best decafe I've tried! Smooth and flavourful. Arrived
+                                    promptly"</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@caffeserenita.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Mon-Fri: 8:00 AM - 7:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday: 9:00 AM - 6:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: 10:00 AM - 5:00 PM"</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.caffeserenita.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" class="form-input" placeholder="Enter name" required>
+                    <input type="email" class="form-input" placeholder="example@email.com" required>
+                    <textarea class="form-input" placeholder="Your message" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">Copyright © 2026 | Caffè Serenità</p>
+
+                <div class="social-link-list">
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/yagnik.patel.397948" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/yagnik.ukani" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/YagnikUkani" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy Policy</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="policy-link">Refund Policy</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Linking Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Linking Custom JS swiper-slide -->
+    <script src="script.js"></script>
+</body>
+
+</html>
